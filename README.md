@@ -44,8 +44,7 @@ quality appraisal, reliability analysis, validation case, and data dictionary.
 - `outputs/`: frozen evidence workbook and release manifests.
 - `data/`: machine-readable public tables exported from the workbook.
 - `protocol/`: eligibility, screening, sampling, and freeze documentation.
-- `references/`: the reconciled BibTeX bibliography and the 36-study search
-  amendment subset.
+- `references/`: the merged authoritative BibTeX bibliography.
 - `validation/`: executable bounded mobility-orchestration illustration,
   frozen outputs, verification script, and checksums.
 - `code/`: scripts that export the public tables and validate the frozen
