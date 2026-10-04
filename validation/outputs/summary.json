@@ -1,0 +1,63 @@
+{
+  "experiment_id": "mobility_orchestration_v1",
+  "n_seeds": 100,
+  "steps_per_seed": 300,
+  "summary": [
+    {
+      "metric": "constraint_violation_rate",
+      "baseline_mean": 0.0053,
+      "orchestrated_mean": 0.0,
+      "paired_difference": -0.0053,
+      "ci95_low": -0.008847213220943628,
+      "ci95_high": -0.001752786779056373
+    },
+    {
+      "metric": "missed_deadline_rate",
+      "baseline_mean": 0.5054333333333334,
+      "orchestrated_mean": 0.5054333333333334,
+      "paired_difference": 0.0,
+      "ci95_low": 0.0,
+      "ci95_high": 0.0
+    },
+    {
+      "metric": "stale_cloud_action_rate",
+      "baseline_mean": 0.589,
+      "orchestrated_mean": 0.0,
+      "paired_difference": -0.589,
+      "ci95_low": -0.5944376747654874,
+      "ci95_high": -0.5835623252345126
+    },
+    {
+      "metric": "blocked_action_rate",
+      "baseline_mean": 0.0,
+      "orchestrated_mean": 6.666666666666667e-05,
+      "paired_difference": 6.666666666666667e-05,
+      "ci95_low": -2.6386434522132916e-05,
+      "ci95_high": 0.00015971976785546626
+    },
+    {
+      "metric": "cascade_index",
+      "baseline_mean": 0.8375,
+      "orchestrated_mean": 0.25,
+      "paired_difference": -0.5875,
+      "ci95_low": -0.6112768752778787,
+      "ci95_high": -0.5637231247221214
+    },
+    {
+      "metric": "mttr_seconds",
+      "baseline_mean": 0.3415000000000001,
+      "orchestrated_mean": 0.1,
+      "paired_difference": -0.24150000000000002,
+      "ci95_low": -0.25745538701466936,
+      "ci95_high": -0.22554461298533068
+    },
+    {
+      "metric": "trace_completeness",
+      "baseline_mean": 0.4,
+      "orchestrated_mean": 1.0,
+      "paired_difference": 0.6,
+      "ci95_low": 0.6,
+      "ci95_high": 0.6
+    }
+  ]
+}

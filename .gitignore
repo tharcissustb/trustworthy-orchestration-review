@@ -1,0 +1,12 @@
+*.pdf
+*.zip
+~$*.xlsx
+__pycache__/
+.DS_Store
+private/
+*.pyc
+.venv/
+dist/
+build/
+outputs/*_working.*
+outputs/*_candidate.*

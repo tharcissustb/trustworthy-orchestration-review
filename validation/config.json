@@ -1,0 +1,23 @@
+{
+  "experiment_id": "mobility_orchestration_v1",
+  "description": "Bounded paired Monte Carlo illustration of edge-cloud mobility orchestration",
+  "seeds": {"start": 1, "stop": 100},
+  "steps_per_seed": 300,
+  "control_frequency_hz": 10,
+  "deadline_seconds": 0.17,
+  "latency_distribution": {"family": "gamma", "shape": 2.0, "scale_seconds": 0.102},
+  "sensor_error_distribution": {"family": "normal", "mean_m": 0.0, "sigma_m": 0.05},
+  "cloud_outages": [
+    {"start_step": 80, "duration_steps": 50},
+    {"start_step": 210, "duration_steps": 50}
+  ],
+  "lead_vehicle_braking": [
+    {"start_step": 65, "duration_steps": 18, "lead_speed_mps": 9.0},
+    {"start_step": 195, "duration_steps": 18, "lead_speed_mps": 9.0}
+  ],
+  "safe_distance": {"reaction_time_seconds": 1.0, "minimum_distance_m": 2.0},
+  "stale_after_steps": 2,
+  "required_artifacts": ["state", "latency", "freshness", "constraint", "decision"],
+  "baseline_artifacts": ["state", "latency"],
+  "orchestrated_artifacts": ["state", "latency", "freshness", "constraint", "decision"]
+}

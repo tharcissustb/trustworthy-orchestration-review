@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this evidence package, please cite the associated manuscript and this repository."
+title: "Trustworthy Orchestration Integrative Review: Evidence and Reproducibility Package"
+type: dataset
+authors:
+  - alias: "tharcissustb"
+repository-code: "https://github.com/tharcissustb/trustworthy-orchestration-review"
+date-released: 2026-10-04
+version: "1.0.0"
+license: "CC-BY-4.0"
+keywords:
+  - trustworthy orchestration
+  - cyber-physical-social-thinking systems
+  - integrative review
+  - evidence map
+  - reproducibility
