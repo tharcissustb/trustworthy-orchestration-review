@@ -1,22 +1,22 @@
 {
   "status": "FROZEN",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "corpus_size": 120,
   "files": [
     {
       "path": "outputs/TRUSTWORTHY_ORCHESTRATION_REVIEW_EVIDENCE_WORKBOOK.xlsx",
-      "bytes": 11257981,
-      "sha256": "133e72dc4965f2ee8a565fca5e458fd05f3ccf5426e352186d345d91f9cf9706"
+      "bytes": 11265053,
+      "sha256": "263233108b61cf83b5bb448e86cc471d65bb3d3abb8423dd492d8fcf1b2ed1bf"
     },
     {
       "path": "data/title_abstract_screening.csv",
-      "bytes": 273506,
-      "sha256": "0144f4607f2a06bcf1ac2bcaf887caf9636dea191e925d151144938ca67d6777"
+      "bytes": 273626,
+      "sha256": "3a19ae32f027ce6b7f4066658dc9de29e055a32846d4dba75e7ed197725b0f02"
     },
     {
       "path": "data/full_text_screening.csv",
-      "bytes": 206544,
-      "sha256": "5cb20efbbf5c041e7557e0017f31235c9db497aebdd27438fda6804b29ac74a2"
+      "bytes": 207000,
+      "sha256": "bd4a7a20121ce25c060ce54249bdbff03d5c7bedc043404b41f2bde0e7cdbb3c"
     },
     {
       "path": "data/included_studies.csv",
@@ -26,7 +26,7 @@
     {
       "path": "data/evidence_map.csv",
       "bytes": 50438,
-      "sha256": "8532d97a01d93620e134c9333c65d5333e19d419bb5f200a7def614aeb98aa62"
+      "sha256": "bdec4ed59035a7ac032d11b3019f401955e1dbb669356a6c7c7d4710a952b592"
     },
     {
       "path": "data/quality_appraisal.csv",
@@ -34,9 +34,14 @@
       "sha256": "f9a52057590b9eb318a70b2d62cc0fce532c04e23c116efc0c03a231caf457b8"
     },
     {
+      "path": "data/p1_p8_reliability_adjudication.xlsx",
+      "bytes": 42023,
+      "sha256": "171e15c33a1802a2656fa4e078bdc7380ba05630278fc5753de3e382248270f9"
+    },
+    {
       "path": "references/references.bib",
-      "bytes": 191490,
-      "sha256": "367dbdedf8b5931f8f988c5db0ee11ead9667cc0ecdf38fcf2ccb35d74ea3edc"
+      "bytes": 191693,
+      "sha256": "e363e921e54dd06db0bd06afa08d7130edffb6d2488acdf60c65ffacdb7af38c"
     },
     {
       "path": "validation/config.json",

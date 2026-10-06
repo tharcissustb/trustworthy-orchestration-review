@@ -3,10 +3,18 @@ message: "If you use this evidence package, please cite the associated manuscrip
 title: "Trustworthy Orchestration Integrative Review: Evidence and Reproducibility Package"
 type: dataset
 authors:
-  - alias: "tharcissustb"
+  - family-names: "Ndayipfukamiye"
+    given-names: "Tharcisse"
+    orcid: "https://orcid.org/0000-0002-1325-9834"
+  - family-names: "Ding"
+    given-names: "Jianguo"
+    orcid: "https://orcid.org/0000-0002-8927-0968"
+  - family-names: "Ning"
+    given-names: "Huansheng"
+    orcid: "https://orcid.org/0000-0001-6413-193X"
 repository-code: "https://github.com/tharcissustb/trustworthy-orchestration-review"
-date-released: 2026-10-04
-version: "1.0.0"
+date-released: 2026-10-06
+version: "1.1.0"
 license: "CC-BY-4.0"
 keywords:
   - trustworthy orchestration

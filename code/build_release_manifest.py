@@ -16,6 +16,7 @@ FILES = [
     "data/included_studies.csv",
     "data/evidence_map.csv",
     "data/quality_appraisal.csv",
+    "data/p1_p8_reliability_adjudication.xlsx",
     "references/references.bib",
     "validation/config.json",
     "validation/simulate.py",
@@ -41,7 +42,7 @@ def main() -> None:
         {"path": name, "bytes": (ROOT / name).stat().st_size, "sha256": digest(ROOT / name)}
         for name in FILES
     ]
-    result = {"status": "FROZEN", "version": "1.0.0", "corpus_size": 120, "files": entries}
+    result = {"status": "FROZEN", "version": "1.1.0", "corpus_size": 120, "files": entries}
     output = ROOT / "outputs" / "release_manifest.json"
     output.write_text(json.dumps(result, indent=2) + "\n", encoding="utf-8")
     checksum = ROOT / "SHA256SUMS.txt"

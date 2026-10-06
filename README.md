@@ -6,8 +6,8 @@ human-authority, and governance interfaces.
 
 ## Frozen release scope
 
-The analytical corpus and its supporting workbook were frozen on 4 October
-2026. The principal counts are:
+The analytical corpus and its supporting workbook were frozen for resubmission
+on 6 October 2026. The principal counts are:
 
 | Stage | Count |
 |---|---:|
@@ -17,10 +17,12 @@ The analytical corpus and its supporting workbook were frozen on 4 October
 | Records in the author-verified title/abstract queue | 757 |
 | Full-text reports sought | 529 |
 | Full-text reports assessed | 524 |
-| Reports excluded after full text | 488 |
+| Reports excluded after full text | 478 |
 | Reports not retrieved | 5 |
-| Studies included through the database-search amendment | 36 |
-| Eligible studies reconciled through citation searching | 84 |
+| Eligible database reports | 46 |
+| Cross-route rediscoveries | 10 |
+| New database-derived inclusions | 36 |
+| Studies retained through citation searching | 84 |
 | Final analytical corpus | **120** |
 
 The publication window is 1 January 2021 through 30 April 2026. The 757-record
@@ -44,8 +46,7 @@ quality appraisal, reliability analysis, validation case, and data dictionary.
 - `outputs/`: frozen evidence workbook and release manifests.
 - `data/`: machine-readable public tables exported from the workbook.
 - `protocol/`: eligibility, screening, sampling, and freeze documentation.
-- `references/`: the reconciled BibTeX bibliography and the 36-study search
-  amendment subset.
+- `references/`: the single reconciled BibTeX database used by the manuscript.
 - `validation/`: executable bounded mobility-orchestration illustration,
   frozen outputs, verification script, and checksums.
 - `code/`: scripts that export the public tables and validate the frozen
@@ -74,17 +75,19 @@ appraisal, reliability totals, validation outputs, and SHA-256 manifest.
 
 ## Reliability and validation boundaries
 
-The independent primary reliability sample contains 16 studies and 336 coded
-decisions. Initial exact agreement was 301/336 (89.6%) before consensus
-adjudication. The bounded validation case uses 100 paired seeds, 300 steps per
-policy and seed, and 60,000 step-level observations. It establishes
+Independent duplicate coding of the five descriptor and four boundary
+variables covered 16 studies and produced 132/144 exact agreements (91.7%).
+Independent P1--P8 recoding on a fixed 16-study maximum-variation sample
+produced 74/128 exact maturity agreements (57.8%; linear-weighted Cohen's
+kappa = 0.393) and 96/128 exact presence agreements (75.0%; kappa = 0.481)
+before documented consensus. The bounded validation case uses 100 paired
+seeds, 300 steps per policy and seed, and 60,000 step-level observations. It establishes
 reproducibility within the declared computational model, not external validity,
 field safety, certification, or production superiority.
 
 ## Citation
 
-Use the metadata in `CITATION.cff`. Replace the repository-owner alias with the
-final author list before creating a DOI-backed archival release.
+Use the author and repository metadata in `CITATION.cff`.
 
 ## Licensing
 

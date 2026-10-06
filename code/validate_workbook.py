@@ -81,7 +81,12 @@ def main() -> None:
 
     full_text_headers = {name: index for index, name in enumerate(full_text[0])}
     decisions = Counter(str(row[full_text_headers["FT_decision"]]) for row in full_text[1:])
-    expected_decisions = {"Excluded after full text": 488, "Include in analytical extension": 36, "Not retrieved": 5}
+    expected_decisions = {
+        "Excluded after full text": 478,
+        "Include in analytical extension": 36,
+        "Eligible — cross-route rediscovery": 10,
+        "Not retrieved": 5,
+    }
     fail_if(dict(decisions) != expected_decisions, f"Unexpected full-text decisions: {dict(decisions)}", errors)
 
     spreadsheet_errors = []

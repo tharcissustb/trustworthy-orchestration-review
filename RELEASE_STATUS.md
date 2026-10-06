@@ -1,4 +1,4 @@
-# Frozen evidence release — 4 October 2026
+# Frozen evidence release — 6 October 2026
 
 ## Frozen numerical spine
 
@@ -8,13 +8,18 @@
 - Author-verified title/abstract queue: 757
 - Full texts sought: 529
 - Full texts assessed: 524
-- Excluded after full text: 488
+- Excluded after full text: 478
 - Not retrieved: 5
+- Eligible database reports: 46
+- Cross-route rediscoveries: 10
 - Citation-search route: 84 studies
-- Database-search amendment: 36 studies
+- New database-derived inclusions: 36 studies
 - Final analytical corpus: 120 studies
 - Independent reliability sample: 16 studies
-- Exact agreement before adjudication: 301/336 (89.6%)
+- Descriptor/boundary agreement: 132/144 (91.7%)
+- P1--P8 maturity agreement: 74/128 (57.8%), weighted kappa = 0.393
+- P1--P8 presence agreement: 96/128 (75.0%), kappa = 0.481
+- Final mechanism assignments: 250, including 126 evaluated assignments
 - Mobility illustration: 100 paired seeds, 300 steps per policy and seed,
   60,000 step-level observations
 
@@ -24,6 +29,7 @@
 - The included-study register contains 120 unique study and BibTeX keys.
 - Included-study, evidence-map, and quality-appraisal key sets are identical.
 - Screening counts reconcile arithmetically.
+- Ten eligible cross-route rediscoveries are identifiable and counted once.
 - The workbook contains no spreadsheet error values.
 - Validation outputs pass row-count, seed, bounds, pairing, and CSV/JSON checks.
 - Repository release files match the recorded SHA-256 manifest.
