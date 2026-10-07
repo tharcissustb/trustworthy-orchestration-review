@@ -1,0 +1,22 @@
+% --- Suggested replacement/addition for Section VII-B ---
+A constraint violation was counted when an accelerating action was executed while the true simulated inter-vehicle gap was below
+\(d_{\mathrm{safe}}=v t_{\mathrm{reaction}}+d_{\min}\).
+The runtime safety gate, however, operated only on the noisy edge-estimated gap.
+This separates the outcome criterion from the gate predicate and permits gate errors under sensor uncertainty to remain observable.
+
+To isolate component effects, we additionally evaluated four ablations under the same 100 seeds and disturbance schedules:
+freshness checking only, local fallback only, runtime safety gating only, and the full configuration combining all three.
+We report true-gap violation rate, stale-cloud-action rate, blocked-action rate, MTTR, minimum true gap, mean ego speed,
+mean absolute jerk, and non-recovered episodes. Trace completeness is retained as an auditability property but is not interpreted
+as an independent performance effect because the required artifact set is configured by design.
+
+% --- Suggested interpretation paragraph ---
+The ablation separates complementary mechanism effects. Freshness checking eliminates stale-cloud execution in this bounded model,
+local fallback determines immediate recovery from cloud outages, and the safety gate reduces unsafe acceleration relative to a
+ground-truth outcome criterion that is distinct from the noisy state estimate used by the gate itself. The full configuration
+combines these effects but also incurs behavioral costs visible in minimum-gap, speed, and jerk measures. Accordingly, the mobility
+illustration supports executability and metric sensitivity within the declared model rather than general safety effectiveness.
+
+% --- Suggested Section VII-C sentence ---
+True-state constraint violations and blocked candidate actions provide complementary evidence for P7: the former measures safety
+outcomes against the simulated ground truth, whereas the latter measures gate intervention frequency.
